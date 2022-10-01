@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@200&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 340px;
+  height: 560px;
+}
+
+.blog {
+  padding: 115px 0;
+  text-align: center;
+}
+.blog__suptitle {
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "Noto Serif Georgian", serif;
+}
+.blog__title {
+  text-transform: uppercase;
+  font-size: 105px;
+  font-weight: bold;
+  line-height: 90px;
+  color: #232323;
+  font-family: "Noto Serif Georgian", serif;
+  position: absolute;
+  left: 30%;
+  top: 9%;
+}
+
+.blog__items {
+  display: flex;
+  justify-content: space-around;
+}
+
+.blog__item-title {
+  margin-top: 30px;
+  line-height: 50px;
+  text-align: left;
+  font-size: 50px;
+  color: #232323;
+  text-transform: uppercase;
+  font-family: "Noto Serif Georgian", serif;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.blog__item-subtitle {
+  font-family: "Noto Serif Georgian", serif;
+  color: #a7a7a7;
+}
+
+.blog__expert {
+  color: #605858;
+  font-size: 20px;
+  margin: 10px 0;
+  padding: 0px 10px;
+  text-align: left;
+}
+.blog__link {
+  font-size: 17px;
+  color: #605858;
+  font-family: "Noto Serif Georgian", serif;
+  text-align: left;
+}

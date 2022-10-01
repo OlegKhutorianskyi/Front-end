@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        html,body{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+
+       
+
+        /* section{
+            width: 50%;
+            height: 50%;
+            border: 1px solid black;
+            position: relative;
+            margin: 5em auto
+        }
+        div{
+            width: 200px;
+            height: 200px;
+            background-color: black;
+        } */
+
+        /* div{
+            position: relative;
+            top: 2em;
+            left: 5em;
+        } */
+
+        /* div{
+            position: absolute;
+            bottom: 0;
+        } */
+
+        /* div{
+            position: fixed;
+            bottom: 0;
+            right: 0;
+        } */
+
+        .open{
+            font-size: 30px;
+            position: relative;
+            top: 5em;
+            left: 5em;
+        }
+
+        .modal{
+            display: none;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            align-items: center;
+            justify-content: center;
+            background-color: rgba(0,0,0,.3);
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+        }
+
+        .modal_inner{
+            width: 50%;
+            height: 50%;
+            background-color: white;
+            box-sizing: border-box;
+            padding: 2em;
+        }
+
+        .close{
+            font-size: 30px;
+        }
+
+        .open_modal{
+            display: flex;
+        }
+
+    </style>
+</head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Glass Huts</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish&family=Open+Sans:wght@300;400&display=swap"
+    rel="stylesheet">
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" type="text/css" href="css/slick.css" />
+<link rel="stylesheet" href="/css/style.css">
+<body>
+    <!-- <section>
+        <div></div>
+    </section> -->
+    <!-- <div class="second"></div> -->
+
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <a class="logo" href="#">
+                    <img class="logo__img" src="./img/logo.png" alt="Logo">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a class="menu__link" href="./index.html">HOME</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">THE HUT</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">THE AREA</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">BOOKING</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">ABOUT US</a></li>
+                        <li class="menu__item"><a class="menu__link" href="#">FAQ</a></li>
+                        <li class="menu__item"><a class="menu__link-img" href="#"><img class="leng__img"
+                                    src="./img/headFlag.png" alt="Leng"></a></li>
+                    </ul>
+                </nav>
+                <a class="book__form-anchor" href="BooNow.html">BOOK NOW</a>
+            </div>
+        </div>
+        </header>
+
+    <button class="open">Click me</button>
+
+    <div class="modal">
+        <div class="modal_inner">
+            <h1>Это модальное окно</h1>
+            <button class="close">close it</button>
+        </div>
+    </div>
+
+    <script>
+        let close_btn = document.querySelector('.close')
+        let modal = document.querySelector('.modal')
+        let open_btn = document.querySelectorAll('.open')
+        open_btn.forEach(el => {
+            el.addEventListener('click', (e) => {
+            modal.classList.add('open_modal')
+        })
+        })
+        close_btn.addEventListener('click', (e) => {
+            modal.classList.remove('open_modal')
+        })
+    </script>
+</body>
+</html>

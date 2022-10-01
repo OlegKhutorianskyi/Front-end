@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body><button class="menu__btn">
+            <span></span>
+        </button>
+    <aside class="menu">
+        
+        <div class="logo">
+            <i class="las la-cube"></i>
+            <h3 class="logo__text">Shark</h3>
+        </div>
+        <nav class="nav">
+
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="nav__link" href="#">
+                        <span class="icon">
+                            <i class="lab la-buffer"></i>
+                        </span>
+                        <span class="nav__text"> Dashboard </span>
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#">
+                        <span class="icon">
+                            <i class="lab la-gitter"></i>
+                        </span>
+                        Statistic
+                    </a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#"><span class="icon">
+                            <i class="lab la-discourse"></i>
+                        </span>Support</a>
+                </li>
+                <li class="nav__item nav__item-active">
+                    <a class="nav__link" href="#">
+                        <span class="icon">
+                            <i class="las la-inbox"></i>
+                        </span>Inbox</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#"><span class="icon">
+                            <i class="las la-rocket"></i>
+                        </span>Goals</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="#"><span class="icon">
+                            <i class="las la-link"></i>
+                        </span>Links</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="menu__filter">
+            <ul class="filter__list">
+                <p class="filter__title">Projects</p>
+                <li class="filter__item">
+                    <figure class="filter__icon-red"></figure>Callipso
+                </li>
+                <li class="filter__item">
+                    <figure class="filter__icon-blue"></figure>BWS bank
+                </li>
+                <li class="filter__item">
+                    <figure class="filter__icon-violet"></figure>Unicorn app
+                </li>
+                <li class="filter__item">
+                    <figure class="filter__icon-green"></figure>Salt
+                </li>
+            </ul>
+            <div class="filter__counter">
+                <div class="filter__item-counter">+4</div>
+                <div class="filter__item-counter">+5</div>
+                <div class="filter__item-counter">+1</div>
+                <div class="filter__item-counter">+3</div>
+            </div>
+        </div>
+        <button class="menu__button">
+            Show more
+        </button>
+    </aside>
+
+    <main>
+        <section class="inbox">
+            <div class="inbox__top">
+                <h2 class="inbox__title">Inbox</h2>
+                <button class="btn">+</button>
+            </div>
+            <div class="inbox__switcher">
+                <button class="inbox__switcher-button inbox__switcher-button--active" id="general-btn">General</button>
+                <button class="inbox__switcher-button" id="total-btn">Total</button>
+            </div>
+
+            </div>
+            <ul class="chat__items">
+                <li class="chat__item chat__item-active">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                    <span class="chat__item-numbmes">2</span>
+                </li>
+                <li class="chat__item chat__item-active">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                    <span class="chat__item-numbmes">2</span>
+                </li>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+
+                </li>
+                <hr>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                </li>
+                <hr>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                </li>
+                <hr>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                </li>
+                <hr>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                </li>
+                <hr>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                </li>
+                <hr>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                </li>
+                <hr>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                </li>
+                <hr>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                </li>
+                <hr>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                </li>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                </li>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                </li>
+                <li class="chat__item">
+                    <img src="img/ava.jpg" alt="" class="chat__item-avatar">
+                    <span class="chat__item-online offline"></span>
+                    <div class="chat__item-inner">
+                        <h4 class="chat__item-name">Oleg Khutorianskiy</h4>
+                        <p class="chat__item-profession">Front-end Developer</p>
+                        <p class="chat__item-prview">Hi, your code compiled!</p>
+                    </div>
+                </li>
+
+            </ul>
+        </section>
+        <section class="dialog">
+            <header class="dialog__header">
+                <div class="dialog__header-inner">
+                    <div class="header__block-left">
+                        <img src="img/ava.jpg" alt="" class="dialog__header-avatar">
+                        <span class="dialog__header-online"></span>
+                        <div class="header__text">
+                            <h4 class="dialog__header-name">Oleg Khutorianskiy</h4>
+                            <p class="dialog__header-status">Online</p>
+                        </div>
+                    </div>
+                    <div class="header__block-right">
+                        <input type="search" name="search" placeholder="Search" class="dialog__header-search">
+                        <!-- <div class="header__btn-inner"> -->
+                        <button class="btn"><i class="las la-microphone"></i></button>
+                        <button class="btn"><i class="las la-camera"></i></button>
+                    </div>
+                </div>
+            </header>
+            </div>
+
+            <div class="dialog__area">
+                <data class="dialog__date">26 September, Monday</data>
+                <div class="messages">
+                    <div class="message__item-right">
+                        <time class="message__time">12:25</time>
+                        <div class="message__item-white">Hello</div>
+                        <div class="message__item--white">What are you doing?</div>
+                    </div>
+
+                    <div class="message__item-left">
+                        <time class="message__time">12:28</time>
+                        <div class="message__item-grey">Hey</div>
+                        <div class="message__item-grey">Nothing</div>
+                    </div>
+                    <div class="message__item-right">
+                        <time class="message__time">12:29</time>
+                        <div class="message__item-white">i to</div>
+
+                    </div>
+
+                    <div class="message__item-left">
+                        <time class="message__time">12:30</time>
+                        <div class="message__item-grey">life is kaif <i class="las la-praying-hands"></i></div>
+
+
+                    </div>
+                    </i>
+                </div>
+            </div>
+
+
+            </div>
+            </div>
+
+            <footer class="dialog__footer">
+                <div class="dialog__footer-inner">
+                    <input class="dialog__message" name="message" id="message" placeholder="Write a message...">
+                    <div class="footer__btn-inner">
+                        <button class="footer__btn"><i class="las la-image"></i></button>
+                        <button class="footer__btn"><i class="las la-microphone"></i></button>
+                        <button class="footer__btn-send"><i class="las la-paper-plane"></i></button>
+                    </div>
+                </div>
+            </footer>
+
+        </section>
+        <section class="panel">
+            <button class="btn">..</button>
+            <div class="panel__btn-bottom">
+                <button class="btn"><i class="las la-info-circle"></i></button>
+                <button class="btn"><i class="las la-bell-slash"></i></button>
+                <button class="btn"><i class="las la-trash-alt"></i></button>
+            </div>
+        </section>
+    </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
