@@ -23,9 +23,6 @@ body{
 
 }
 
-.item{
-    background: red;
-}
 
 .item1{
     grid-area: one;
