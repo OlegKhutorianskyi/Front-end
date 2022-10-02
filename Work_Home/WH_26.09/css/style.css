@@ -1,0 +1,62 @@
+html, body, .container{
+    height: 100%;
+    width: 100%;
+}
+body{
+    margin: 0;
+
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 150px 150px 150px 150px; 
+    grid-template-rows: 80px 80px 80px 80px;
+    grid-template-areas: 
+    "one two two thrie"
+    "one fore five six"
+    "one seven aite six" 
+    ;
+    gap: 10px;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+
+}
+
+.item{
+    background: red;
+}
+
+.item1{
+    grid-area: one;
+    background: green;
+}
+.item2{
+    grid-area: two;
+    background: green;
+}
+.item3{
+    grid-area: thrie;
+    background: red;
+}
+.item4{
+    grid-area: fore;
+    background: yellow;
+}
+.item5{
+    grid-area: five;
+    background: red;
+}
+.item6{
+    grid-area: six;
+    background: green;
+}
+.item7{
+    grid-area: seven;
+    background: red;
+}
+.item8{
+    grid-area: aite;
+    background: yellow;
+}
+
