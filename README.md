@@ -13,3 +13,7 @@ https://olegkhutorianskyi.github.io/Front-end/Work_Home/WH_12.09/index.html
 Shark
 
 https://olegkhutorianskyi.github.io/Front-end/Work_Home/WH_21.09/index.html
+
+Grid 26.09
+
+https://olegkhutorianskyi.github.io/Front-end/Work_Home/WH_26.09/index.html
