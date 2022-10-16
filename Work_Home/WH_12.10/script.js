@@ -43,4 +43,19 @@
 // console.log(string(0===0));
 
 // Arrows Function
+// const string = (str) => {
 
+//     if ((typeof str) === 'string') return str.length;
+//     if ((typeof str) === 'boolean') return (String(str).length);
+//     if (str == 0) return 'zero';
+//     if (str == 1) return 'one';
+//     if (str == 2) return 'two';
+//     if (str == 3) return 'three';
+//     if (str == 4) return 'fore'; 
+//             return 'Неверный тип данных';
+            
+//     }
+// console.log(string(3));
+
+
+//Arrows function - в данном случае предпочтительнее, т.к. синтаксис короче остальных видов
