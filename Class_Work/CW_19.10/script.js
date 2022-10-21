@@ -9,30 +9,30 @@
 
 // console.log(con);
 
-let multipledThree = num => num % 3 == 0;
-let even = num => num % 2 == 0;
+// let multipledThree = num => num % 3 == 0;
+// let even = num => num % 2 == 0;
 
-let arrayToStringConcat = arr => {
-    let str = "";
-    for (let i = 0; i < arr.length; i++) {
-        const element = arr[i];
-        if (even(i+1)) {
-           str += `, ${element},`;
-        }else{
-            str += element;
-        }
-    }
+// let arrayToStringConcat = arr => {
+//     let str = "";
+//     for (let i = 0; i < arr.length; i++) {
+//         const element = arr[i];
+//         if (multipledThree(i + 1)) {
+//            str += `, ${element}`;
+//         }else{
+//             str += element;
+//         }
+//     }
     
 
 
-    return str;
-}
+//     return str;
+// }
 
 
-console.log(even(3));
-console.log(multipledThree(2));
+// console.log(even(3));
+// console.log(multipledThree(2));
 
-console.log(arrayToStringConcat(['a', 'b', 'c', 'd', 'e', 'f','g','i']));
+// console.log(arrayToStringConcat(['a', 'b', 'c', 'd', 'e', 'f','g','i']));
 
 
 // В переменной date лежит дата в формате '2025-12-31'. Преобразуйте эту дату в формат '31/12/2025'.
