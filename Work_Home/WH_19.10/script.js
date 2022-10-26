@@ -52,3 +52,39 @@ let longStrInArray = (arr) => {
   return arr;
 };
 console.log(longStrInArray([1, 2, 3]));
+
+
+// todo _ Напишите функцию которая будет принимать три массива с любыми данными и объединять их в один, новый массив и возвращать его. В зависимости от типа данных вы должны упорядочить данные. Сначала добавляйте только строки, затем цифры, затем булевы значения, все остальные значения могут быть в произвольном порядке добавлены далее.
+
+
+
+let one = ["привет", true, 65];
+let two = [3, [], false];
+let three = ["js", "java", "script", "redButton"];
+
+function resultFilter(arr1, arr2, arr3) {
+  let toHardThreeOrder = [].concat(one, two, three);
+
+  let a = toHardThreeOrder.filter((n) => {
+    return typeof n == "string";
+  });
+
+  let b = toHardThreeOrder.filter((n) => {
+    return typeof n == "number";
+  });
+
+  let c = toHardThreeOrder.filter((n) => {
+    return typeof n == "boolean";
+  });
+
+  let d = toHardThreeOrder.filter((n) => {
+    return (
+      typeof n !== "boolean" && typeof n !== "number" && typeof n !== "string"
+    );
+  });
+
+  return [...a, ...b, ...c, ...d];
+}
+
+console.log(resultFilter(one, two, three));
+
