@@ -16,21 +16,18 @@ let longStrInArray = (arr) => {
       if (arr[0].length > arr[1].length && arr[0].length > arr[2].length) {
         res.push(arr[0]);
         res.push(indexArr_0);
-        return res;
       } else if (
         arr[1].length > arr[0].length &&
         arr[1].length > arr[2].length
       ) {
         res.push(arr[1]);
         res.push(indexArr_1);
-        return res;
       } else if (
         arr[2].length > arr[0].length &&
         arr[2].length > arr[1].length
       ) {
         res.push(arr[2]);
         res.push(indexArr_2);
-        return res;
       }
 
       return res;
@@ -38,15 +35,12 @@ let longStrInArray = (arr) => {
       if (arr[0] > arr[1] && arr[0] > arr[2]) {
         res.push(arr[0]);
         res.push(indexArr_0);
-        return res;
       } else if (arr[1] > arr[0] && arr[1] > arr[2]) {
         res.push(arr[1]);
         res.push(indexArr_1);
-        return res;
       } else if (arr[2] > arr[1] && arr[2] > arr[0]) {
         res.push(arr[2]);
         res.push(indexArr_2);
-        return res;
       }
       return res;
     } else {
@@ -55,7 +49,6 @@ let longStrInArray = (arr) => {
     }
   }
 
-  arr = res;
   return arr;
 };
-console.log(longStrInArray(["glory", "to", "Ukraine"]));
+console.log(longStrInArray([1, 2, 3]));
