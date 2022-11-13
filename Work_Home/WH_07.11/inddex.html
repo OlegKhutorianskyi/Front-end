@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .helloBtn{
+        height: 100px;
+        width: 90%;
+        border: 1px solid rgb(114, 119, 117);
+        background-color: rgb(171, 164, 196);
+        cursor: pointer;
+        font-size: 40px;    }
+    .helloBtn:hover{
+        width: 100%;
+        border: 1px solid rgb(0, 0, 0);
+        background-color: rgb(76, 74, 77);
+        transition: .5s;
+        color: #fff
+    }
+    .hidePhotoBtn{
+        height: 100px;
+        width: 90%;
+        border: 1px solid rgb(114, 119, 117);
+        background-color: rgb(171, 164, 196);
+        cursor: pointer;
+        font-size: 40px;
+    }
+    .hidePhotoBtn:hover{
+        width: 100%;
+        border: 1px solid rgb(0, 0, 0);
+        background-color: rgb(76, 74, 77);
+        transition: .5s;
+        color: #fff
+    }
+    .img{
+        width: 250px;
+        height: 150px;
+        margin: 50px 0 50px 0;
+    }
+    .show__update-img{
+        border-radius: 50px;
+        overflow: hidden;
+        transition: .5s;
+        box-shadow: 10px 0 10px rgba(76, 74, 77, 0.555);
+        width: 370px;
+        height: 215px;
+    }
+
+</style>
+<body>
+    <div class="wrapper">
+        <button class="helloBtn">Hallo!</button>
+        <img class="img"  src="./Tiger.jpg" alt="photo">
+        <button class="hidePhotoBtn">Hide!</button>
+
+</div>
+    <script src="./script.js"></script>
+</body>
+</html>
