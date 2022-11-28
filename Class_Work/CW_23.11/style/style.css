@@ -1,0 +1,8 @@
+.text{
+    cursor: pointer;
+}
+.text:hover{
+    transition: .5s;
+    color: #fff;
+    background-color: #000;
+}
