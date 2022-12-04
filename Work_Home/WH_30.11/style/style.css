@@ -18,6 +18,7 @@ justify-content: center;
     color: #06db3c;
     font-size: 35px;
     transition: .5s;
+    box-shadow: 3px 6px 21px 12px rgba(40,117,3,0.67);;
     cursor: url("https://icons8.com/icon/cnGnnxgnYfJC/phone-case");
     overflow: none;
 }
