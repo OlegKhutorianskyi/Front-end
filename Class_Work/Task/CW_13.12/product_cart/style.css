@@ -93,9 +93,8 @@ button{
 }
 
 
-.notification .success{
+.notification.success{
     background-color: rgb(87, 204, 138);
-    
 }
 .notification.danger{
     background-color: red;
