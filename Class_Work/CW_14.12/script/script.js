@@ -13,8 +13,8 @@ const post = [];
 
 function createPost(title, body) {
     const title_p = document.createElement('p');
-    const container = document.createElement('div');
     const body_p = document.createElement('p');
+    const container = document.createElement('div');
 
     container.classList.add('post')
     title_p.classList.add('subheader')
