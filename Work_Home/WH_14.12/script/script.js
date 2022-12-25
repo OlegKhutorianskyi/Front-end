@@ -1,4 +1,4 @@
-
+// немного криво работают стили при выводе больше одного продукта
 
 
     const form = document.querySelector('.add_products-form')
