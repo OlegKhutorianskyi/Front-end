@@ -102,7 +102,7 @@ let rerander = () => {
         products.append(container);
     })
 } 
-}
 rerander();
+}
 
 // Написать счетчики общей стоимости и колличества как на макете
